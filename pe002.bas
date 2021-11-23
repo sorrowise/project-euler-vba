@@ -17,3 +17,20 @@ Public Sub PE002()
     Wend
     Debug.Print res + 2
 End Sub
+
+'approach 2
+
+Public Sub PE002()
+    Dim i, a, b, res, temp As Long
+    res = 0
+    a = 2
+    b = 8
+    While a <= 4000000
+        res = res + a
+        temp = a
+        a = b
+        b = 4 * a + temp
+    Wend
+    Debug.Print res
+End Sub
+   
