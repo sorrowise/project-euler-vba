@@ -1,4 +1,4 @@
-Public Sub pe001()
+Public Sub PE001()
     Dim res As Long
     Dim i As Integer
     res = 0
